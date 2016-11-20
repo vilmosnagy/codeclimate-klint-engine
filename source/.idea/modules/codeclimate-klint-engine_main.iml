@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="codeclimate-klint-engine:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.github.vilmosnagy" external.system.module.type="sourceSet" external.system.module.version="0.1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../build/generated/source/kapt/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../build/generated/source/kapt/main" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.5-2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.shyiko:ktlint:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.salomonbrys.kotson:kotson:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.0.5-2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.shyiko.ktlint:ktlint-core:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.shyiko.ktlint:ktlint-ruleset-standard:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-aether-provider:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-spi:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-util:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-impl:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-connector-basic:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-transport-file:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-transport-http:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-nop:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: args4j:args4j:2.33" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-compiler-embeddable:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model-builder:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-repository-metadata:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-utils:3.0.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.6" level="project" />
+  </component>
+</module>
