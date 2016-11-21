@@ -1,0 +1,11 @@
+{
+  "name": "ktlint",
+  "description": "TODO",
+  "maintainer": {
+    "name": "Vilmos Nagy",
+    "email": "vilmos.nagy@outlook.com"
+  },
+  "languages" : ["Kotlin"],
+  "version": "0.1.0",
+  "spec_version": "0.2.0"
+}

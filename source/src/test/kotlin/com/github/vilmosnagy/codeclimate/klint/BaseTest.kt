@@ -40,9 +40,10 @@ internal abstract class BaseTest : FeatureSpec() {
 
     private fun initBaseVariables() {
         fs = Jimfs.newFileSystem(Configuration.unix())
+        val gson = realAppCtx.gson
         AppCtx.mockedAppCtx = mockedAppCtx
         whenever(mockedAppCtx.fileSystem).thenReturn(fs)
-        whenever(mockedAppCtx.gson).thenReturn(realAppCtx.gson)
+        whenever(mockedAppCtx.gson).thenReturn(gson)
     }
 
     open fun before() {

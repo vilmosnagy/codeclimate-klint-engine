@@ -5,7 +5,12 @@ import com.github.shyiko.ktlint.core.RuleSetProvider
 import com.github.vilmosnagy.codeclimate.klint.dagger.AppCtx
 import com.github.vilmosnagy.codeclimate.klint.model.Config
 import com.github.vilmosnagy.codeclimate.klint.service.JsonSerializer
+import java.nio.file.FileSystems
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
 import java.util.*
+import java.util.stream.Collectors
 import javax.inject.Inject
 
 /**
@@ -17,10 +22,16 @@ class Main @Inject constructor(
 ) {
 
     fun runEngine() {
-        val config: Config? = jsonSerializer.parseJsonFileIfExists("/code/config.json")
+        val config: Config? = jsonSerializer.parseJsonFileIfExists("/config.json")
         val ruleSets = ServiceLoader
                 .load(RuleSetProvider::class.java)
                 .map { it.get().id to it }
+
+        Thread.sleep(180000)
+
+        Files.walk(FileSystems.getDefault().getPath("/code"))
+                .filter { p -> Files.exists(p) }
+                .forEach { println("File: ${it.toAbsolutePath()}") }
 
         println("config: $config")
         println("----------------------")

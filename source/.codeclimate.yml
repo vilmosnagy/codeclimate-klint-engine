@@ -1,0 +1,5 @@
+engines:
+  ktlint:
+    enabled: true
+  csslint:
+    enabled: true
